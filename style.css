@@ -1,0 +1,230 @@
+/* homemade apple font */
+@import url('https://fonts.cdnfonts.com/css/homemade-apple');
+/* fire sans font */
+
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;0,600;1,700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.heroSection{
+    background-color: #1a1a1c;
+    color: #ffffff !important;
+}
+
+.heroSection::before{
+    content: "";
+    background-image: url("https://assets.popsy.co/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbUVhIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1777a78631546d90e8418179b41bd2299df9f86b/Triangles.svg");
+    background-repeat: repeat-y;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    background-attachment: unset;
+}
+
+.navbar-brand, .nav-link, .navbar-toggler{
+    color: #ffffff !important;
+}
+
+.navbar-brand{
+    font-family: 'Homemade Apple', sans-serif;
+}
+
+.hero{
+    gap: 40px;
+}
+
+.hero{
+    padding: 12rem 0;
+}
+
+.hero img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hero h1{
+    font-weight: 700;
+    font-size: 80px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.hero p{
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #E9E9E9;
+    font-weight: 300;
+}
+
+.yelloBtn{
+    margin-top: 30px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FBBF24;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.yelloBtn:hover{
+    background-color: #daa51d;
+}
+
+.section1{
+    padding: 12rem 0;
+    background-color: #0D0C0C;
+    color: #ffffff;
+    gap: 40px;
+}
+
+.section1 h2, .paris h2{
+    font-size: 40px;
+    font-weight: 200;
+    font-size: 44px;
+}
+
+.section1 p, .paris p{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 18px;
+    color: #E9E9E9;
+}
+
+.section1 span, .paris span{
+    color: #FBBF24;
+}
+
+.section1 img{
+    width: 300px;
+    height: 300px;
+}
+
+.quote{
+    background-color: #0D0C0C;
+    color: #ffffff;
+    gap: 40px;
+}
+
+.quote .borLeft{
+    border-left: 2px solid #E9E9E9;
+}
+
+.quote p{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote span{
+    color: #FBBF24;
+}
+
+.paris{
+    padding: 12rem 0;
+    background-color: #0D0C0C;
+    color: #ffffff;
+    gap: 40px;
+}
+
+.paris img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.sandTexture{
+    height: 200px;
+    width: 100%;
+    background: url(./assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help{
+    padding: 8rem 0;
+    background-color: #0D0C0C;
+    color: #ffffff;
+}
+
+.help h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .navbar{
+        padding: 20px;
+    }
+
+    .hero{
+        padding: 12rem 2rem;
+    }
+
+    .hero img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero h1{
+        margin-top: 40px;
+        font-size: 50px;
+    }
+
+    .hero p{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .section1, .paris{
+        padding: 12rem 2rem;
+    }
+
+    .section1 p, .paris p{
+        font-size: 16px;
+    }
+
+    .section1 img, .paris img{
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .quote{
+        padding: 0 2rem;
+        gap: 20px;
+    }
+
+    .quote p{
+        font-size: 16px;
+    }
+
+    .help h2{
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        padding: 20px;
+    }
+
+    .hero{
+        padding: 12rem 2rem;
+    }
+    
+}
